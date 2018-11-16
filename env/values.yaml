@@ -16,8 +16,9 @@ expose:
   config:
     domain: mythreekit.com
     exposer: Ingress
-    http: "true"
-    tlsacme: "false"
+    email: blarsen@threekit.com
+    issuer: letsencrypt-prod
+    tls: "true"
     pathMode: ""
   Annotations:
     helm.sh/hook: post-install,post-upgrade
