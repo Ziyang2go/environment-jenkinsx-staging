@@ -19,6 +19,7 @@ expose:
     email: blarsen@threekit.com
     issuer: letsencrypt-prod
     tls: "true"
+    tls-acme: "true"
     pathMode: ""
   Annotations:
     helm.sh/hook: post-install,post-upgrade
